@@ -32,7 +32,7 @@ Miscellaneous stuff
 
 - I made some explorables with [d3](https://d3js.org/) and [Observable](https://observablehq.com/@jake-low),
   like a [satellite ground track visualizer](https://observablehq.com/@jake-low/satellite-ground-track-visualizer)
-  and a [Web Mercator tile visibility demo](https://observablehq.com/@jake-low/web-mercator-tile-visibility)
+  and a [map tile visibility demo](https://observablehq.com/@jake-low/web-mercator-tile-visibility)
 - I wrote about [how to use Hobby's algorithm](https://www.jakelow.com/blog/hobby-curves) to make nice looking Bézier splines
  
 [barchart]: https://github.com/jake-low/barchart
