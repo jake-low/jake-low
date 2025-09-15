@@ -1,14 +1,19 @@
 Tools for OpenStreetMap and geospatial tasks
 
 - [osmx-rs]:
-  a Rust port of [OSMExpress](https://github.com/protomaps/OSMExpress/), a fast database file format for OpenStreetMap 
+  a Rust port of [OSMExpress](https://github.com/protomaps/OSMExpress/), a fast database file format for OpenStreetMap
+- [sourdough]:
+  a free vector tile schema for OpenStreetMap data, with a Planetiler reference implementation ([demo](https://sourdough.osm.fyi/))
 - [osm-cli]:
   fetch data or subscribe to edits from OpenStreetMap
 - [overpass-cli]:
   use the Overpass query language to fetch OpenStreetMap data
 - [shapely-cli]:
   transform GeoJSON using Python one-liners with the help of the [shapely](https://shapely.readthedocs.io/en/stable/manual.html) library
-- [usfs-to-osm] and [nps-to-osm]: scripts to convert official USFS and NPS datasets to an OSM-compatible schema
+- [usfs-to-osm] and [nps-to-osm]:
+  scripts to convert official USFS and NPS datasets to an OSM-compatible schema
+- [parks.osm.fyi]:
+  website which lists parks, nature reserves, and protected area boundaries in OSM
 
 General-purpose CLI tools
 
@@ -42,9 +47,12 @@ Miscellaneous stuff
 [osm-cli]: https://github.com/jake-low/osm-cli
 [osmx-rs]: https://github.com/jake-low/osmx-rs
 [overpass-cli]: https://github.com/jake-low/overpass-cli
+[parks.osm.fyi]: https://parks.osm.fyi/
 [postcss-minify]: https://github.com/jake-low/postcss-minify
 [remark-sectionize]: https://github.com/jake-low/remark-sectionize
 [shapely-cli]: https://github.com/jake-low/shapely-cli
+[sourdough]: https://github.com/jake-low/sourdough
 [usfs-to-osm]: https://github.com/jake-low/usfs-to-osm
 [uu]: https://github.com/jake-low/uu
 [xpath-cli]: https://github.com/jake-low/xpath-cli
+
