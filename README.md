@@ -19,6 +19,8 @@ General-purpose CLI tools
 
 - [xpath-cli]:
   evaluate [XPath](https://en.wikipedia.org/wiki/XPath) expressions on XML documents using [libxml2](https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home)
+- [grex]:
+  transforms XML into a flat, line-oriented form; like [gron](https://github.com/tomnomnom/gron) but for XML instead of JSON
 - [ngrams]:
   computes the frequency of sequences of characters ([n-grams](https://en.wikipedia.org/wiki/N-gram)) in a text file
 - [barchart]:
@@ -42,6 +44,7 @@ Miscellaneous stuff
  
 [barchart]: https://github.com/jake-low/barchart
 [gh-log]: https://github.com/jake-low/gh-log
+[grex]: https://github.com/jake-low/grex
 [ngrams]: https://github.com/jake-low/ngrams
 [nps-to-osm]: https://github.com/jake-low/nps-to-osm
 [osm-cli]: https://github.com/jake-low/osm-cli
@@ -55,4 +58,5 @@ Miscellaneous stuff
 [usfs-to-osm]: https://github.com/jake-low/usfs-to-osm
 [uu]: https://github.com/jake-low/uu
 [xpath-cli]: https://github.com/jake-low/xpath-cli
+
 
