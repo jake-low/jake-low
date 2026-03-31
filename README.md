@@ -4,6 +4,8 @@ Tools for OpenStreetMap and geospatial tasks
   a Rust port of [OSMExpress](https://github.com/protomaps/OSMExpress/), a fast database file format for OpenStreetMap
 - [sourdough]:
   a free vector tile schema for OpenStreetMap data, with a Planetiler reference implementation ([demo](https://sourdough.osm.fyi/))
+- [duckdb-osmium]:
+  a DuckDB extension for reading OpenStreetMap PBF files using [libosmium](https://osmcode.org/libosmium)
 - [osm-cli]:
   fetch data or subscribe to edits from OpenStreetMap
 - [overpass-cli]:
@@ -21,6 +23,8 @@ General-purpose CLI tools
   evaluate [XPath](https://en.wikipedia.org/wiki/XPath) expressions on XML documents using [libxml2](https://gitlab.gnome.org/GNOME/libxml2/-/wikis/home)
 - [grex]:
   transforms XML into a flat, line-oriented form; like [gron](https://github.com/tomnomnom/gron) but for XML instead of JSON
+- [loc]:
+  count lines of code in files (reads filenames from stdin)
 - [ngrams]:
   computes the frequency of sequences of characters ([n-grams](https://en.wikipedia.org/wiki/N-gram)) in a text file
 - [barchart]:
@@ -43,8 +47,10 @@ Miscellaneous stuff
 - I wrote about [how to use Hobby's algorithm](https://www.jakelow.com/blog/hobby-curves) to make nice looking Bézier splines
  
 [barchart]: https://github.com/jake-low/barchart
+[duckdb-osmium]: https://github.com/jake-low/duckdb-osmium
 [gh-log]: https://github.com/jake-low/gh-log
 [grex]: https://github.com/jake-low/grex
+[loc]: https://github.com/jake-low/loc
 [ngrams]: https://github.com/jake-low/ngrams
 [nps-to-osm]: https://github.com/jake-low/nps-to-osm
 [osm-cli]: https://github.com/jake-low/osm-cli
