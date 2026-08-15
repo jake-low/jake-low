@@ -6,6 +6,8 @@ Tools for OpenStreetMap and geospatial tasks
   a free vector tile schema for OpenStreetMap data, with a Planetiler reference implementation ([demo](https://sourdough.osm.fyi/))
 - [duckdb-osmium]:
   a DuckDB extension for reading OpenStreetMap PBF files using [libosmium](https://osmcode.org/libosmium)
+- [roadzilla]:
+  generates road layers for MapLibre stylesheets to achieve sophisticated road cartography
 - [osm-cli]:
   fetch data or subscribe to edits from OpenStreetMap
 - [overpass-cli]:
@@ -59,6 +61,7 @@ Miscellaneous stuff
 [parks.osm.fyi]: https://parks.osm.fyi/
 [postcss-minify]: https://github.com/jake-low/postcss-minify
 [remark-sectionize]: https://github.com/jake-low/remark-sectionize
+[roadzilla]: https://github.com/jake-low/roadzilla
 [shapely-cli]: https://github.com/jake-low/shapely-cli
 [sourdough]: https://github.com/jake-low/sourdough
 [usfs-to-osm]: https://github.com/jake-low/usfs-to-osm
