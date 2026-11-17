@@ -8,6 +8,8 @@ Tools for OpenStreetMap and geospatial tasks
   a DuckDB extension for reading OpenStreetMap PBF files using [libosmium](https://osmcode.org/libosmium)
 - [roadzilla]:
   generates road layers for MapLibre stylesheets to achieve sophisticated road cartography
+- [mapview]:
+  view geospatial data files in your web browser
 - [osm-cli]:
   fetch data or subscribe to edits from OpenStreetMap
 - [overpass-cli]:
@@ -53,6 +55,7 @@ Miscellaneous stuff
 [gh-log]: https://github.com/jake-low/gh-log
 [grex]: https://github.com/jake-low/grex
 [loc]: https://github.com/jake-low/loc
+[mapview]: https://github.com/jake-low/mapview
 [ngrams]: https://github.com/jake-low/ngrams
 [nps-to-osm]: https://github.com/jake-low/nps-to-osm
 [osm-cli]: https://github.com/jake-low/osm-cli
